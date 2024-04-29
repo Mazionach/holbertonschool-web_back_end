@@ -1,4 +1,5 @@
-import initializeRooms from './1-make_classrooms.js';
+import HolbertonCourse from "./2-hbtn_course.js";
 
-console.log(initializeRooms());
+const course = new HolbertonCourse("PHP", 20, ["Lucie", "Guillaume"]);
 
+console.log(course);
