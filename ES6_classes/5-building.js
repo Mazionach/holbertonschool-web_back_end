@@ -1,6 +1,11 @@
 export default class Building {
   constructor(sqft) {
     this._sqft = sqft;
+    try {
+      this.evacuationWarningMessage();
+    } catch (error) {
+      throw error;
+    }
   }
 
   get sqft() {
