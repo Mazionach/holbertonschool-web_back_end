@@ -20,8 +20,8 @@ export default class Currency {
   }
 
   set code(c) {
-    if (typeof c !== 'number') {
-      throw new TypeError('Code must be a number');
+    if (typeof c !== 'string') {
+      throw new TypeError('Code must be a string');
     }
     this._code = c;
   }
