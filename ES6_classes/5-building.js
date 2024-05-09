@@ -7,7 +7,7 @@ export abstract class Building {
     return this._sqft;
   }
 
-  abstract evacuationWarningMessage() {
-    void;
+  evacuationWarningMessage() {
+    throw Error('Class extending Building must override evacuationWarningMessage');
   }
 }
