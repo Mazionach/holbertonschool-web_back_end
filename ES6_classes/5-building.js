@@ -1,4 +1,4 @@
-export abstract class Building {
+export default Building {
   constructor(sqft) {
     this._sqft = sqft;
   }
