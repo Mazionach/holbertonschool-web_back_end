@@ -8,7 +8,7 @@ export default class Airport {
     return this._code;
   }
 
-  toString() {
+  toStringTag() {
     return this.code;
   }
 }
