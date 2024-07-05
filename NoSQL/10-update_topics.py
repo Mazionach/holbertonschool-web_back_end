@@ -6,7 +6,7 @@ Update doc
 import pymongo
 
 
-def insert_school(mongo_collection, **kwargs):
+def def schools_by_topic(mongo_collection, topic):
     """
     Update doc
     """
