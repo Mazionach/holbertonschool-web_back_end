@@ -7,6 +7,9 @@ import pymongo
 
 
 def list_all(mongo_collection):
+    """
+    list docs
+    """
     r = []
 
     if mongo_collection:
