@@ -6,9 +6,8 @@ Update doc
 import pymongo
 
 
-def def schools_by_topic(mongo_collection, topic):
+def update_topics(mongo_collection, name, topics):
     """
     Update doc
     """
-    mongo_collection.update_many({"name": name},
-                                 {"$set": {"topics": topics}})
+    mongo_collection.update_many({"name": name}, {"$set": {"topics": topics}})
