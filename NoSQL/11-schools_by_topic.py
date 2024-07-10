@@ -3,8 +3,6 @@
 Get doc list by topic
 """
 
-import pymongo
-
 
 def schools_by_topic(mongo_collection, topic):
     """
