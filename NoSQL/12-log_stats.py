@@ -16,7 +16,7 @@ def log_stats():
 
     cl = MongoClient("localhost", 27017)
     db = cl.logs
-    col = db.ngix
+    col = db.nginx
 
     print(f"{col.count_documents({})} logs")
     print("Methods:")
