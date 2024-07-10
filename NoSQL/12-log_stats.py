@@ -14,7 +14,7 @@ cl = MongoClient("localhost", 27017)
 db = cl.logs
 col = db.ngix
 
-print(f"{col.count_documents()} logs")
+print(f"{col.count_documents({})} logs")
 print("Methods:")
 method = ["GET", "POST", "PUT", "PATCH", "DELETE"]
 
