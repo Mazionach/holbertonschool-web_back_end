@@ -3,7 +3,7 @@
 Log data about database
 """
 
-import pymongo
+from pymongo import MongoClient
 
 
 
