@@ -10,4 +10,4 @@ function handleProfileSignup() {
     });
 }
 
-export default handleProfileSignUp;
+export default handleProfileSignup;
